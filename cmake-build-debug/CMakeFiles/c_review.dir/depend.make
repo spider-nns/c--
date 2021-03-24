@@ -3,6 +3,5 @@
 
 CMakeFiles/c_review.dir/basic/operationAndBranch.c.o: ../basic/operationAndBranch.c
 
-CMakeFiles/c_review.dir/main.c.o: ../basic/operationAndBranch.c
 CMakeFiles/c_review.dir/main.c.o: ../main.c
 

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/spider/CLionProjects/c-review/basic/operationAndBranch.c" "/Users/spider/CLionProjects/c-review/cmake-build-debug/CMakeFiles/c_review.dir/basic/operationAndBranch.c.o"
-  "/Users/spider/CLionProjects/c-review/main.c" "/Users/spider/CLionProjects/c-review/cmake-build-debug/CMakeFiles/c_review.dir/main.c.o"
+  "/Users/spider/CLionProjects/c--/basic/operationAndBranch.c" "/Users/spider/CLionProjects/c--/cmake-build-debug/CMakeFiles/c_review.dir/basic/operationAndBranch.c.o"
+  "/Users/spider/CLionProjects/c--/main.c" "/Users/spider/CLionProjects/c--/cmake-build-debug/CMakeFiles/c_review.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

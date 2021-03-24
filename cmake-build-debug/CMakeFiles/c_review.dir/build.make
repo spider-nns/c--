@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/spider/CLionProjects/c-review
+CMAKE_SOURCE_DIR = /Users/spider/CLionProjects/c--
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/spider/CLionProjects/c-review/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/spider/CLionProjects/c--/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/c_review.dir/depend.make
@@ -79,29 +79,29 @@ include CMakeFiles/c_review.dir/flags.make
 
 CMakeFiles/c_review.dir/main.c.o: CMakeFiles/c_review.dir/flags.make
 CMakeFiles/c_review.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/spider/CLionProjects/c-review/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c_review.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_review.dir/main.c.o   -c /Users/spider/CLionProjects/c-review/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/spider/CLionProjects/c--/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c_review.dir/main.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_review.dir/main.c.o   -c /Users/spider/CLionProjects/c--/main.c
 
 CMakeFiles/c_review.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_review.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/spider/CLionProjects/c-review/main.c > CMakeFiles/c_review.dir/main.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/spider/CLionProjects/c--/main.c > CMakeFiles/c_review.dir/main.c.i
 
 CMakeFiles/c_review.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_review.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/spider/CLionProjects/c-review/main.c -o CMakeFiles/c_review.dir/main.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/spider/CLionProjects/c--/main.c -o CMakeFiles/c_review.dir/main.c.s
 
 CMakeFiles/c_review.dir/basic/operationAndBranch.c.o: CMakeFiles/c_review.dir/flags.make
 CMakeFiles/c_review.dir/basic/operationAndBranch.c.o: ../basic/operationAndBranch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/spider/CLionProjects/c-review/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/c_review.dir/basic/operationAndBranch.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_review.dir/basic/operationAndBranch.c.o   -c /Users/spider/CLionProjects/c-review/basic/operationAndBranch.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/spider/CLionProjects/c--/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/c_review.dir/basic/operationAndBranch.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c_review.dir/basic/operationAndBranch.c.o   -c /Users/spider/CLionProjects/c--/basic/operationAndBranch.c
 
 CMakeFiles/c_review.dir/basic/operationAndBranch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c_review.dir/basic/operationAndBranch.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/spider/CLionProjects/c-review/basic/operationAndBranch.c > CMakeFiles/c_review.dir/basic/operationAndBranch.c.i
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/spider/CLionProjects/c--/basic/operationAndBranch.c > CMakeFiles/c_review.dir/basic/operationAndBranch.c.i
 
 CMakeFiles/c_review.dir/basic/operationAndBranch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c_review.dir/basic/operationAndBranch.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/spider/CLionProjects/c-review/basic/operationAndBranch.c -o CMakeFiles/c_review.dir/basic/operationAndBranch.c.s
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/spider/CLionProjects/c--/basic/operationAndBranch.c -o CMakeFiles/c_review.dir/basic/operationAndBranch.c.s
 
 # Object files for target c_review
 c_review_OBJECTS = \
@@ -115,7 +115,7 @@ c_review: CMakeFiles/c_review.dir/main.c.o
 c_review: CMakeFiles/c_review.dir/basic/operationAndBranch.c.o
 c_review: CMakeFiles/c_review.dir/build.make
 c_review: CMakeFiles/c_review.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/spider/CLionProjects/c-review/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable c_review"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/spider/CLionProjects/c--/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable c_review"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/c_review.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +128,6 @@ CMakeFiles/c_review.dir/clean:
 .PHONY : CMakeFiles/c_review.dir/clean
 
 CMakeFiles/c_review.dir/depend:
-	cd /Users/spider/CLionProjects/c-review/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/spider/CLionProjects/c-review /Users/spider/CLionProjects/c-review /Users/spider/CLionProjects/c-review/cmake-build-debug /Users/spider/CLionProjects/c-review/cmake-build-debug /Users/spider/CLionProjects/c-review/cmake-build-debug/CMakeFiles/c_review.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/spider/CLionProjects/c--/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/spider/CLionProjects/c-- /Users/spider/CLionProjects/c-- /Users/spider/CLionProjects/c--/cmake-build-debug /Users/spider/CLionProjects/c--/cmake-build-debug /Users/spider/CLionProjects/c--/cmake-build-debug/CMakeFiles/c_review.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/c_review.dir/depend
 
